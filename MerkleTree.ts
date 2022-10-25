@@ -36,7 +36,7 @@ class MerkleTree {
      * @param index number
      * @param node MerkleNode
      * @returns Array of hashes at the given level
-     * @complexity Time O(n)
+     * @complexity Time O(log n)
      * 
      * This function could have improved space complexity by not using the nodes.concat method, 
      * as this creates another instance of tha array rather than manipulating the original
